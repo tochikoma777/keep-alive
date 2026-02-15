@@ -126,11 +126,3 @@ jobs:
           
           # 推送到远程仓库
           git push origin main || echo "Nothing to push"
-      
-      # -------------------------------------------------
-      # 步骤5：验证结果（可选）
-      # -------------------------------------------------
-      - name: Verify contribution
-        run: |
-          echo "🎉 Daily contribution completed!"
-          echo "📊 Check your profile: https://github.com/${{ github.actor }}"
