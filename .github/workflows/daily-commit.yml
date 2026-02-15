@@ -64,7 +64,7 @@ jobs:
           # 配置提交者姓名（显示在贡献图中）
           git config --global user.name "github-actions[bot]"
           # 配置提交者邮箱（GitHub提供的专用邮箱）
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "brother.777.lei@gmail.com"
       
       # -------------------------------------------------
       # 步骤3：生成每日更新内容
